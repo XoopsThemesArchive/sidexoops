@@ -1,0 +1,235 @@
+
+
+/* Theme css start here */
+
+
+
+/* font-size ,font-family and color */
+BODY {
+background-color: #FFFFFF;
+color: #000000 ;
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+a {
+color: #000000;
+text-decoration: none;
+letter-spacing: 0px
+}
+
+a:hover {
+background-color: transparent;
+color: #7B869A;
+text-decoration: none;
+letter-spacing: 0px
+}
+
+input{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+select{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+textarea{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+div{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+p{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+table{
+font-size: 11px;
+font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+
+/* header - footer*/
+.bg_header{
+background-color: #7B869A
+}
+
+.bg_footer{
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+
+
+/* content and space*/
+.bg_content{
+background-color:  #FFFFFF
+}
+
+.bg_side_space{
+background-color:  #FFFFFF
+}
+
+.bg_line{
+background-color:  #FFFFFF
+}
+
+
+/* center-center*/
+.bg_center-center_blocks{
+background-color:  #FFFFFF
+}
+
+.theme_blockcenter_c_title{
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+
+.theme_blockcenter_c_content{
+background-color: transparent;
+padding: 5px
+}
+
+
+/* center-left*/
+.bg_center-left_blocks{
+background-color:  #F5F5F5
+}
+
+.theme_blockcenter_l_title{
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+
+.theme_blockcenter_l_content{
+background-color: transparent;
+padding: 5px
+}
+
+
+/* center-right*/
+.bg_center-right_blocks{
+background-color:  #F5F5F5
+}
+
+.theme_blockcenter_r_title{
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+
+.theme_blockcenter_r_content{
+background-color: transparent;
+padding: 5px
+}
+
+
+
+/* left_blocks*/
+.bg_left_blocks{
+background-color: #F5F5F5
+}
+
+.theme_blockleft_title {
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+.theme_blockleft_content{
+background-color: transparent;
+padding: 5px
+}
+
+
+/* right_blocks*/
+.bg_right_blocks{
+background-color: #F5F5F5
+}
+
+.theme_blockright_title{
+font-weight: bold;
+background: #DDDDDD url(imagens/colunatitulofundo.png) repeat-x;
+padding: 2px
+}
+
+.theme_blockright_content{
+background-color: transparent;
+padding: 5px
+}
+
+
+/* Theme css end here */
+
+
+
+
+
+
+/* Some module and system css */
+
+
+/* mainmenu*/
+td#mainmenu a {display: block; margin: 0; padding: 0px;color: #F8FAA7;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#mainmenu a:hover {background-color: #7B869A;color: #FFFFFF;font-weight: bold;text-decoration: none; letter-spacing: 0px }
+td#mainmenu a.menuTop {border-bottom: 0px solid #DDDDDD;color: #000000;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#mainmenu a.menuMain {border-bottom: 0px solid #DDDDDD;color: #000000;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#mainmenu a.menuSub {padding-left: 2px; border-bottom: 0px solid #DDDDDD;color: #000000;text-decoration: none; letter-spacing: 0px}
+td#mainmenu a.menuSub:hover {padding-left: 2px; border-bottom: 0px solid #DDDDDD;color: #DDDDDD;text-decoration: none; letter-spacing: 0px}
+
+/*usermenu*/
+td#usermenu a {display: block; margin: 0; padding: 0px;color: #000000;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#usermenu a:hover {background-color: #7B869A;color: #FFFFFF;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#usermenu a.menuTop {border-bottom: 0px solid #DDDDDD;color: #000000;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+td#usermenu a.highlight {background-color: #FCC;font-weight: bold;text-decoration: none; letter-spacing: 0px}
+
+
+
+/* Misc. Definitions */
+.navtext {vertical-align: middle;}
+.navinput {width: 7em; height: 1.3em;border:1px solid #000000; background-color: #E9E9E9; padding:0px 2px 0px 0px; vertical-align: middle;}
+.navinputImage {vertical-align: middle;}
+.bcenterbg { font-weight: bold; height: 37px; letter-spacing: 1px; line-height:37px; vertical-align: bottom;}
+.bcenterleft { height: 37px; width: 11px;}
+.bcenterright { height: 37px; width: 175px;}
+.contentbox {background-color: #FCFCFC; color: #000000;}
+.centerContent {border-bottom: #CCCCCC 1px solid; background-color: #DEE3E7; color: #000000;}
+.tabOn {padding: 2px; text-align:left; border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; cursor: pointer; color: #000000; background-color: #FFFFFF; width: 120px;}
+.tabOff {padding: 2px; text-align:left; background-color: #F6F6F6; color: #666666; border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; cursor: pointer; width: 120px;}
+
+
+.outer {background-color: #CCCCCC; width: 100%}
+.head {background-color: #F5F5F5;padding: 5px; font-weight: bold}
+.even {background-color: #F3F3F3; padding: 5px;text-decoration: none}
+.odd {background-color: #FFFFFF; padding: 5px;text-decoration: none}
+.foot {background-color: #CCCCCC; padding: 5px; font-weight: bold}
+
+tr.even td {background-color: #F5F5F5; padding: 5px}
+tr.odd td {background-color: #FFFFFF; padding: 5px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
